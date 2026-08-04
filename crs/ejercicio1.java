@@ -25,7 +25,7 @@ public class ejercicio1 {
             }
         }
 
-        System.out.println("Cantidad de números pares: " + pares);
-        System.out.println("Cantidad de números impares: " + impares);
+        System.out.println("Total pares: " + pares);
+
     }
 }
