@@ -32,20 +32,20 @@ public class ejercicio6 {
 
         System.out.println("\nResultado de la votación:");
         System.out.println("Candidato A: " + votosA + " votos");
-               System.out.println("Candidato B: " + votosB + " votos");
-               System.out.println("Candidato C: " + votosC + " votos");
+        System.out.println("Candidato B: " + votosB + " votos");
+        System.out.println("Candidato C: " + votosC + " votos");
 
-               if (votosA > votosB && votosA > votosC) {
-                   System.out.println("Ganador: Candidato A");
-               } else if (votosB > votosA && votosB > votosC) {
-                   System.out.println("Ganador: Candidato B");
-               } else if (votosC > votosA && votosC > votosB) {
-                   System.out.println("Ganador: Candidato C");
-               } else {
-                    System.out.println("Hay un empate.");
+        if (votosA > votosB && votosA > votosC) {
+            System.out.println("Ganador: Candidato A");
+        } else if (votosB > votosA && votosB > votosC) {
+            System.out.println("Ganador: Candidato B");
+        } else if (votosC > votosA && votosC > votosB) {
+            System.out.println("Ganador: Candidato C");
+        } else {
+            System.out.println("Hay un empate.");
 
 
-                }
-         sc.nextInt();
+        }
+        sc.nextInt();
             }
         }
