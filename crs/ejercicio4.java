@@ -22,9 +22,9 @@ public class ejercicio4 {
 
         for (int i = 0; i < temperatura.length; i++) {
 
-            if (temperatura[i] < 15) {
+            if (temperatura[i] < 20) {
                 System.out.println(temperatura[i] + "°C Frio");
-            } else if (temperatura[i] <= 25) {
+            } else if (temperatura[i] <= 35) {
                 System.out.println(temperatura[i] + "°C Templado");
             } else  {
                 System.out.println(temperatura[i] + "°C Calor");
